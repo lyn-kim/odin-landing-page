@@ -14,8 +14,9 @@ body {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
 }
 
 .navbar {
@@ -26,8 +27,14 @@ body {
 .navlinks {
     list-style: none;
     flex: 1;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 10px;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
 }
 
 .about {
@@ -158,6 +165,7 @@ body {
 
 .textcontainer {
     color: white;
+    padding: 20px;
 }
 
 .textcontainer .question {
@@ -167,6 +175,10 @@ body {
 
 .textcontainer .action {
     font-size: 13px;
+}
+
+.signbutton {
+    padding: 20px;
 }
 
 .button2 {
@@ -180,4 +192,14 @@ body {
     color: white;
     font-weight: bold;
     font-size: 12px;
+}
+
+.footer {
+    background-color: #b5b682;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 13px;
 }
